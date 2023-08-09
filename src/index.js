@@ -46,3 +46,9 @@ window.addEventListener("offline", evt => {
 window.addEventListener("copy", evt => {
  console.log("copy action initiated");
 });
+// 11 - load 
+window.onload = function (evt) {
+ console.log('event ${evt.type} fired! Ready to go!')
+ const heading = document.querySelector('h1')
+ heading.textContent = 'READY TO GO!!'
+}
