@@ -42,7 +42,7 @@ document.body.addEventListener('click', evt => {
   evt.target.style.text = 'bold';
   console.log('things are working 8')
  })
-// 9- click
+// 9- click WORKING
 document.body.addEventListener('dblclick', evt => {
   evt.target.style.text = 'pink'
   console.log('things are working 2')
